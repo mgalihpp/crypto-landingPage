@@ -8,7 +8,7 @@ const Banner = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <div className="mx-auto max-w-screen-xl relative" id="home-section">
+    <div className="mx-auto max-w-screen-xl relative pt-28" id="home-section">
       <div className="arrowOne"></div>
       <div className="radial-banner hidden lg:block"></div>
       <ModalVideo

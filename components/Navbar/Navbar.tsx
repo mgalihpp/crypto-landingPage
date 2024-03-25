@@ -44,6 +44,7 @@ const Navbar = () => {
                 </div>
               </div>
               {/* END LOGO */}
+              
               {/* LINKS */}
               <div className="hidden lg:flex items-center border-right">
                 <div className="flex justify-end space-x-4">
