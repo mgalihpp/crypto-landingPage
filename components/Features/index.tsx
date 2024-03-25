@@ -49,7 +49,7 @@ const Features = () => {
         </div>
         {/* COLUMN 2 */}
         <div>
-          <div className="grid grid-cols-3 gap-x-4 gap-y-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-4">
             {featuresdata.map((item, index) => (
               <div
                 className="bg-blue transform transition-transform hover:border border-[#bd24df] hover:scale-105 py-10 pr-12 pl-6 rounded-lg"
